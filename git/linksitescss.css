@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+h1 {
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: left;
+}
+h2{
+    font-size: 40px;
+}
+.hero {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    background-position: center;
+    background-image: url("./man_united.jpg");
+    background-size: center;
+}   
+p {
+    font-size: 35px;
+}
+img{
+    display: flex;
+    justify-content: center;
+}
+a{
+    font-size: 50px;
+    text-align: center;
+    margin: 10px;
+    color: black;
+}
+ul{
+    font-size: 45px;
+}
+table{
+    font-size: 30px;
+    border: solid black 1px;
+}
+.menu li{
+    display: inline;
+}
+.menu a{
+    background-color: lightblue;
+    padding: 5px;
+    margin: 4px 10px 5px 0;
+    text-decoration: none;
+}
+.menu a:hover{
+    background-color: lightcyan;
+
+}
+.menu a:active{
+    background-color: cyan;
+}
