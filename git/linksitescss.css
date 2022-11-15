@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+h1 {
+    color: cyan;
+    font-weight: bold;
+    font-size: 150px;
+    text-align: left;
+}
+h2{
+    font-size: 40px;
+}
+.hero {
+    height: 200px;
+    background-image: url("./Tatran.gif");
+    background-size: center;
+    background-position: center;
+    padding: 0;
+
+}   
+p {
+    font-size: 35px;
+}
+img{
+    display: flex;
+    justify-content: center;
+}
+a{
+    font-size: 50px;
+    text-align: center;
+    margin: 10px;
+    color: black;
+}
+ul{
+    font-size: 45px;
+}
+table{
+    font-size: 30px;
+    border: solid black 1px;
+}
+.menu li{
+    display: inline;
+}
+.menu a{
+    background-color: lightblue;
+    padding: 5px;
+    margin: 4px 10px 5px 0;
+    text-decoration: none;
+}
+.menu a:hover{
+    background-color: lightcyan;
+
+}
+.menu a:active{
+    background-color: cyan;
+}
+.debug{
+    border: 1px solid red;
+}
+.overcast{
+    background-color: rgba(50, 50, 50, 0.5);
+    width: 100%;
+    height: 100%; 
+}
