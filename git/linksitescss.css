@@ -1,7 +1,7 @@
 body {
     background-color: rgb(255, 255, 255);
 }
-h1 {
+#nadpis {
     color: cyan;
     font-weight: bold;
     font-size: 150px;

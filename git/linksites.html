@@ -14,7 +14,7 @@
 
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a> 
+            <a class="navbar-brand" href="#"></a> 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -34,7 +34,7 @@
     <div class = "container-fluid hero debug">
         <div class = "overcast">
             <div class = "container">
-                <h1>Tatran</h1>
+                <h1 id = "nadpis">Tatran</h1>
             </div>
         </div>
     </div>
@@ -64,12 +64,39 @@
     </div>
 
     <form action = "">
-        Jméno: <input type = "text" name = "jmeno"><br>
-        Rok narození: <input type = "number" name = "birthdate"><br>
-        Obrázek: <input type = "file" name = "avatar"><br>
-        Terms: <input type = "checkbox" name = "terms"><br>
-        <input type = "submit" value = "SEND">
+        <div class = "container">
+            <h1>Jméno</h1> 
+                <div class="form-floating mb-3">
+                    <input id = "name1" class="form-control" type = "text" name = "jmeno"><br>
+                    <label for = "name1">Jméno</label><br>
+                </div>
+            <h1>Rok narození:</h1> 
+                <div class="form-floating mb-3">
+                    <input id = "dateofbirth" class="form-control" type = "number" name = "birthdate"><br>
+                    <label for = "dateofbirth">Rok narození</label><br>
+                </div>
+            <h1>Obrázek</h1> 
+                <input type = "file" name = "avatar"><br>
+            <h1>Terms:</h1>
+                    <input id = "t" type = "checkbox" name = "terms">
+                    <label for = "t">Accept</label><br>
+            
+            <h1>Nástroj:</h1><br>
+                    <div class="form-floating mb-3">
+                        <input class="form-control" id = "tool1" type = "radio" name = "tool" value = "L">
+                        <label for = "tool1">Lopata</label><br>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input class="form-control" id = "tool2" type = "radio" name = "tool" value = "H">
+                        <label for = "tool2">Hrábě</label><br>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input class="form-control" id = "tool3" type = "radio" name = "tool" value = "M">
+                        <label for = "tool3">Motyka</label><br>
+                    </div>
 
+            <input type = "submit" value = "SEND">
+        </div>
     </form>
 
     <div class = "row">
