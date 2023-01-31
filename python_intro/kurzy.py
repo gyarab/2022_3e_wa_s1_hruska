@@ -13,7 +13,6 @@ for row in milan[2:-1]:
     a[name] = amount, curr
 
 czk_user_input = float(input("zadej částku v czk: ").replace(",", "."))
-print("možnosti výběru: ")
 s = ""
 for i in a.items():
     s += i[0] + ", "
